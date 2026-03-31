@@ -14,20 +14,46 @@
         <a href="../index.html">FitLife</a>
 
         <ul>
-            <a href="pages/IMC.html"> | IMC | </a>
-            <a href="pages/water.html"> | água | </a>
-            <a href="pages/tbm.html"> | tbm | </a>
-            <a href="pages/sobre.html"> | Sobre | </a>
+            <a href="IMC.html"> | IMC | </a>
+            <a href="water.html"> | água | </a>
+            <a href="tbm.html"> | tbm | </a>
+            <a href="sobre.html"> | Sobre | </a>
         </ul>
 
     </nav>
 
     <main>
         <section>
-            <header>
-                <h1>TBM</h1>
-                <p>em breve você poderá calcular seu TBM aqui.</p>
-            </header>
+            <h1>Taxa Metabolica Basal</h1>
+
+            <form>
+
+                <label for="gender">Genero</label>
+                <select id="gender">
+                    <option value="male">Masculino</option>
+                    
+                    <option value="female">Feminino</option>
+                </select>
+
+                <label for="weight">Peso (Kg)</label>
+                <input type="number" id="weight" placeholder="ex: 56 kg" required>
+
+                <label for="height">Altura (M)</label>
+                <input type="number" id="Height" placeholder="ex: 1,65" required step="any">
+
+                <label for="age">Idade</label>
+                <input type="number" id="age" placeholder="ex: 23" required>
+
+                <button type="submit">Calcular</button>
+
+            </form>
+
+            <div>
+                <p>Gasto Calorico Basal</p>
+                <h2>0000</h2>
+                <p>Cal/Dia</p>
+            </div>
+
         </section>
     </main>
 

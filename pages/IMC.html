@@ -14,20 +14,35 @@
         <a href="../index.html">FitLife</a>
 
         <ul>
-            <a href="pages/IMC.html"> | IMC | </a>
-            <a href="pages/water.html"> | água | </a>
-            <a href="pages/tbm.html"> | tbm | </a>
-            <a href="pages/sobre.html"> | Sobre | </a>
+            <a href="IMC.html"> | IMC | </a>
+            <a href="water.html"> | água | </a>
+            <a href="tbm.html"> | tbm | </a>
+            <a href="sobre.html"> | Sobre | </a>
         </ul>
 
     </nav>
 
     <main>
         <section>
-            <header>
-                <h1>IMC</h1>
-                <P>em breve você poderá calcular seu IMC aqui...</P>
-            </header>
+            <h1>Calculo de IMC</h1>
+            <form>
+
+                <label for="weight"> Peso (kg) </label>
+                <input type="number" id="weight" placeholder="ex 65 kg" required step="any">
+
+                <label for="height"> Altura (m) </label>
+                <input type="number" id="height" placeholder="ex: 1.5 M" required step="any">
+                
+
+                <button type="submit">calcular</button>
+
+            </form>
+
+            <div>
+                <p>seu IMC é:</p>
+                <h2>00.0</h2>
+                <p>calssificação</p>
+            </div>
 
             <a href="../index.html"> Voltar </a>
         </section>
