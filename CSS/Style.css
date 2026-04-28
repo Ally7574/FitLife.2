@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body{
+    font-family: "poppins";
+    background-color: white;
+    color: #333
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #fff;
+    padding: 0 80px;
+
+    height: 80px;
+
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 1);
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 24px
+}
+
+#nav-active {
+    border-bottom: 3px #00b894 solid;
+    color: #00b894;
+}
