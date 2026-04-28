@@ -29,7 +29,25 @@ nav{
     gap: 24px
 }
 
+.nav-link {
+    text-decoration: none;
+    color: #2d3436;
+    font-size: 16px
+}
+
 #nav-active {
     border-bottom: 3px #00b894 solid;
     color: #00b894;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+
+    gap: 8px;
+
+    font-size: 24px;
+    color: #00b894;
+    text-decoration: none;
+    font-weight: 600;
 }
