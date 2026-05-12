@@ -153,12 +153,13 @@ main {
     gap: 0.5rem;
 }
 
-.from-group label{
+.from-group label {
     font-weight: 600;
     color: var(--secondary-color);
 }
 
-.from-group input {
+.from-group input,
+.form-group select {
     padding: 0.8rem;
     border: 2px solid var(--border-color);
     border-radius: 5px;
@@ -166,7 +167,8 @@ main {
     font-family: inherit;
 }
 
-.from-group input:focus {
+.from-group input:focus,
+.from-group select:focus {
     outline: none;
     border-color: var(--primary-color);
 }
