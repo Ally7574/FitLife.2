@@ -207,3 +207,21 @@ main {
     border-radius: 10px;
     text-align: center;
 }
+
+@media (max-width: 480px) {
+    nav {
+        flex-direction: column;
+        justify-content: center;
+        height: 12vh;
+    }
+}
+
+@media (max-width: 400px) {
+    logo {
+        font-size: 1.2rem;
+    }
+
+    nav-link {
+        gap: 0.5rem;
+    }
+}
