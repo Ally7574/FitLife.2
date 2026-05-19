@@ -40,20 +40,21 @@
             </div>
 
             <div class="water-controls">
-                <button class="action-btn btn-water-add" type="button">+ 250ml</button>
-                <button class="action-btn btn-water-zero" type="button">Zerar</button>
+                <button class="action-btn btn-water-add" type="button" onclick="addWater">+ 250ml</button>
+                <button class="action-btn btn-water-zero" type="button" onclick="resetWater">Zerar</button>
             </div>
 
             <div class="progress-container">
-                <div class="progress-bar">0%</div>
+                <div id="water-bar" class="progress-bar">0%</div>
             </div>
 
-            <p>Total: <span>0</span> ml</p>
+            <p>Total: <span id="water-total">0</span> ml</p>
 
             <a class="action-btn btn-back" href="../index.html"> Voltar </a>
         </section>
     </main>
 
+        <script src="../js/water.js"></script>
     
 
 </body>
