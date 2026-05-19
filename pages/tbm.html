@@ -57,13 +57,13 @@
                 </div>
 
                 <div>
-                <button class="action-btn" type="submit">Calcular</button>
+                <button class="action-btn" onclick="calculateTMB(event)" type="submit">Calcular</button>
                 </div>
             </form>
 
-            <div class="result-box">
+            <div id="result-box" class="result-box">
                 <p>Gasto calórico basal:</p>
-                <h2>0000</h2>
+                <h2 id="tmb-value">0000</h2>
                 <p>Kcal/dia</p>
             </div>
 
@@ -73,6 +73,7 @@
 
 
     </main>
+    <script src="../js/tmb.js"></script>
     
 </body>
 </html>
